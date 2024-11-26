@@ -6,7 +6,15 @@
         public TicTacToeBoard()
         {
             board = new string[3,3];
-            Enumerable.Repeat(' ', 9).ToArray();
+            clear();
+        }
+        public void clear(){
+            // Enumerable.Repeat("O", 9).ToArray();
+            for(int i = 0; i < 3; ++i){
+                for(int j = 0; j < 3; ++j){
+                    board[i,j]="T"; // setting it to T for test
+                }
+            }
         }
         public string getCell(int row, int col){
             return board[row,col];

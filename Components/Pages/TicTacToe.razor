@@ -1,22 +1,45 @@
 ﻿@page "/TicTacToe"
+@rendermode InteractiveServer
 
 <h3>Are you ready for Tic Tac Toe?</h3>
+
+<style>
+    .square{
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        cursor:pointer;
+        border:1px solid black;
+    }
+    .row{
+        display: flex;
+    }
+</style>
 
 @for(int i = 0; i < 3; ++i){
     <div class="row" id="@i">
     @for(int j = 0; j < 3; ++j){
         int row = i;
         int col = j;
-        <div @onclick="() => board.setCell(row, col)" 
-            class="@board.getCell(row,col)">
-            @board.getCell(row,col)
+        <div class="square"
+            id="@j"
+            @onclick="() => OnClick(row, col)"> 
+            Text:@row:@col:@board.getCell(row,col)
         </div>
     }
     </div>
 }
 
+<p>@testText</p>
+
 @code {
+    string testText = "Not Clicked Yet";
     [Parameter]
     public TicTacToeBoard board { get; set; } = new TicTacToeBoard();
     protected override void OnInitialized(){}
+    protected void OnClick(int r, int c){
+        testText+="ButtonClicked\n";
+        board.setCell(r, c);
+        StateHasChanged();
+    }
 }

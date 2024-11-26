@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TicTacToeBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fc8b0f954e9237b8b91a2209d0a01f3c0ba9486")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee560ac74d9a67bde348f13afac12173115399a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TicTacToeBlazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TicTacToeBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
