@@ -1,7 +1,7 @@
 ﻿@page "/TicTacToe"
 @rendermode InteractiveServer
 
-<h3>Are you ready for Tic Tac Toe?</h3>
+<h3>@header</h3>
 
 <style>
     .square{
@@ -23,7 +23,7 @@
         int col = j;
         <div class="square"
             id="@j"
-            @onclick="() => OnClick(row, col)"> 
+            @onclick="/*() => OnClick(row, col)*/testClick"> 
             Text:@row:@col:@board.getCell(row,col)
         </div>
     }
@@ -33,13 +33,16 @@
 <p>@testText</p>
 
 @code {
+    string header = "Are you ready for Tic Tac Toe?";
     string testText = "Not Clicked Yet";
     [Parameter]
     public TicTacToeBoard board { get; set; } = new TicTacToeBoard();
     protected override void OnInitialized(){}
-    protected void OnClick(int r, int c){
+    public void OnClick(int r, int c){
         testText+="ButtonClicked\n";
         board.setCell(r, c);
-        StateHasChanged();
+    }
+    public void testClick(){
+        header+=" button clicked!";
     }
 }
