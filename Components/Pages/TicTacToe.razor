@@ -1,0 +1,22 @@
+﻿@page "/TicTacToe"
+
+<h3>Are you ready for Tic Tac Toe?</h3>
+
+@for(int i = 0; i < 3; ++i){
+    <div class="row" id="@i">
+    @for(int j = 0; j < 3; ++j){
+        int row = i;
+        int col = j;
+        <div @onclick="() => board.setCell(row, col)" 
+            class="@board.getCell(row,col)">
+            @board.getCell(row,col)
+        </div>
+    }
+    </div>
+}
+
+@code {
+    [Parameter]
+    public TicTacToeBoard board { get; set; } = new TicTacToeBoard();
+    protected override void OnInitialized(){}
+}

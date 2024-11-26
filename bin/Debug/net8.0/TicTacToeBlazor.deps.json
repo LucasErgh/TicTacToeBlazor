@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TicTacToeBlazor/1.0.0": {
+        "runtime": {
+          "TicTacToeBlazor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TicTacToeBlazor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
