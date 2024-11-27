@@ -15,7 +15,7 @@ namespace TicTacToeBlazor.Components.Pages
             // Enumerable.Repeat("O", 9).ToArray();
             for(int i = 0; i < 3; ++i){
                 for(int j = 0; j < 3; ++j){
-                    board[i,j]=' '; // setting it to T for test
+                    board[i,j]=' '; // setting it to space for empty cell
                 }
             }
         }
