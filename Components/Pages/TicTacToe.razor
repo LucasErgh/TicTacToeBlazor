@@ -33,21 +33,25 @@
 <button class="btn btn-primary" @onclick="Reset">Reset Gameboard</button>
 
 @code {
+    char curPlayer = 'X';
     string header = "Are you ready for Tic Tac Toe?";
     [Parameter]
     public TicTacToeBoard board { get; set; } = new TicTacToeBoard();
-    protected override void OnInitialized(){}
     public void OnClick(int r, int c){
-        board.setCell(r, c, 'X');
+        if (board.gameOver) return;
+        board.setCell(r, c, curPlayer);
         int win = board.checkForWin();
         if (win != -1){
             if (win == 0) header = "Players Tied";
             else if (win == 1) header = "X's Won!";
             else if (win == 2) header = "O's Won!";
         }
+        curPlayer = (curPlayer == 'X') ? 'O' : 'X';
+        header = curPlayer + "'s Turn";
     }
     public void Reset(){
         header = "Are you ready for Tic Tac Toe?";
         board.clear();
+        board.gameOver = false;
     }
 }

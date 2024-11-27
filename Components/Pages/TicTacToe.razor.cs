@@ -1,7 +1,10 @@
-﻿namespace TicTacToeBlazor.Components.Pages
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace TicTacToeBlazor.Components.Pages
 {
     public class TicTacToeBoard
     {
+        public bool gameOver { get; set; } = false;
         char[,] board;
         public TicTacToeBoard()
         {
@@ -27,6 +30,7 @@
         }
         public int checkForWin(){
             bool tie = true;
+            gameOver = true;
             // check for win in rows & columns and check for tie
             for(int i = 0; i < 3; ++i){
                 // check for rows
@@ -39,8 +43,9 @@
                     if (board[0, i] == 'X') return 1;
                     else if (board[0, i] == ')') return 2;
                 }
+                // check if any cells are empty to determine if the game is finished yet
                 for (int j = 0; j < 3; ++j){
-                    if(board[i,j] == ' ') tie = false; // check if any cells are empty to determine if the game is finished yet
+                    if(board[i,j] == ' ') tie = false; 
                 }
             }
             // check for diagnals
@@ -49,7 +54,12 @@
                 if (board[1,1] == 'X') return 1;
                 else if (board[1,1] == 'O') return 2;
             }
-            return (tie) ? 0 : -1; // tie 
+            if (tie){ 
+                return 0; 
+            } else {
+                gameOver = false;
+                return -1;
+            }
         }
     }
 }
