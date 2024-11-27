@@ -7,9 +7,9 @@
     .square{
         height: 100px;
         width: 100px;
-        background-color: aqua;
         cursor:pointer;
         border:1px solid black;
+        font-size: 70px;
     }
     .row{
         display: flex;
@@ -23,24 +23,31 @@
         int col = j;
         <div class="square"
             id="@j"
-            @onclick="() => OnClick(row, col)"> 
-            Text:@row:@col:@board.getCell(row,col)
+            @onclick="() => OnClick(row, col)">
+            @board.getCell(row,col)
         </div>
     }
     </div>
 }
 
-<p>@testText</p>
+<button class="btn btn-primary" @onclick="Reset">Reset Gameboard</button>
 
 @code {
     string header = "Are you ready for Tic Tac Toe?";
-    string testText = "Not Clicked Yet";
     [Parameter]
     public TicTacToeBoard board { get; set; } = new TicTacToeBoard();
     protected override void OnInitialized(){}
     public void OnClick(int r, int c){
-        System.Console.WriteLine("Button Was Clicked");
-        testText+="ButtonClicked\n";
-        board.setCell(r, c);
+        board.setCell(r, c, 'X');
+        int win = board.checkForWin();
+        if (win != -1){
+            if (win == 0) header = "Players Tied";
+            else if (win == 1) header = "X's Won!";
+            else if (win == 2) header = "O's Won!";
+        }
+    }
+    public void Reset(){
+        header = "Are you ready for Tic Tac Toe?";
+        board.clear();
     }
 }
