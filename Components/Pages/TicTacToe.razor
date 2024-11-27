@@ -46,8 +46,10 @@
             else if (win == 1) header = "X's Won!";
             else if (win == 2) header = "O's Won!";
         }
-        curPlayer = (curPlayer == 'X') ? 'O' : 'X';
-        header = curPlayer + "'s Turn";
+        else{
+            curPlayer = (curPlayer == 'X') ? 'O' : 'X';
+            header = curPlayer + "'s Turn";
+        }
     }
     public void Reset(){
         header = "Are you ready for Tic Tac Toe?";
