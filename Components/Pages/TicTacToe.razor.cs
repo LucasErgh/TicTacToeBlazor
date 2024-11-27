@@ -26,7 +26,8 @@
 
         }
         public int checkForWin(){
-            // check for win in rows & columns
+            bool tie = true;
+            // check for win in rows & columns and check for tie
             for(int i = 0; i < 3; ++i){
                 // check for rows
                 if (board[i, 1] == board[i, 0] && board[i, 2] == board[i, 0]){
@@ -38,6 +39,9 @@
                     if (board[0, i] == 'X') return 1;
                     else if (board[0, i] == ')') return 2;
                 }
+                for (int j = 0; j < 3; ++j){
+                    if(board[i,j] == ' ') tie = false; // check if any cells are empty to determine if the game is finished yet
+                }
             }
             // check for diagnals
             if (board[0, 0] == board[1,1] && board[0,0] == board[2,2] || 
@@ -45,13 +49,7 @@
                 if (board[1,1] == 'X') return 1;
                 else if (board[1,1] == 'O') return 2;
             }
-            // check for tie
-            for(int i = 0; i < 3; ++i){
-                for(int j = 0; j < 3; ++j){
-                    if (board[i,j] == ' ') return -1; // no tie, game isn't finished
-                }
-            }
-            return 0; // tie 
+            return (tie) ? 0 : -1; // tie 
         }
     }
 }
