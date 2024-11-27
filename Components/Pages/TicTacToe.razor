@@ -23,7 +23,7 @@
         int col = j;
         <div class="square"
             id="@j"
-            @onclick="/*() => OnClick(row, col)*/testClick"> 
+            @onclick="() => OnClick(row, col)"> 
             Text:@row:@col:@board.getCell(row,col)
         </div>
     }
@@ -39,10 +39,8 @@
     public TicTacToeBoard board { get; set; } = new TicTacToeBoard();
     protected override void OnInitialized(){}
     public void OnClick(int r, int c){
+        System.Console.WriteLine("Button Was Clicked");
         testText+="ButtonClicked\n";
         board.setCell(r, c);
-    }
-    public void testClick(){
-        header+=" button clicked!";
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lM+iQvhqC2n6YPcSR2m0T0ia9Ld8e57sItI9lqUwJ1g=",
+  "Hash": "UYlEjysyk3+Vh3rSC3zLsI6OoO29OIsukolqkUHU6u8=",
   "Source": "TicTacToeBlazor",
   "BasePath": "_content/TicTacToeBlazor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TicTacToeBlazor\\wwwroot",
       "Source": "TicTacToeBlazor",
-      "ContentRoot": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\",
       "BasePath": "_content/TicTacToeBlazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TicTacToeBlazor.styles.css",
+      "Identity": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TicTacToeBlazor.styles.css",
       "SourceId": "TicTacToeBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TicTacToeBlazor",
       "RelativePath": "TicTacToeBlazor#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "wYlIBvdLyIQHasGBxqnQE8yyZv2aHgUSTHMphhnIMcA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TicTacToeBlazor.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TicTacToeBlazor.styles.css"
     },
     {
-      "Identity": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TicTacToeBlazor.bundle.scp.css",
+      "Identity": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TicTacToeBlazor.bundle.scp.css",
       "SourceId": "TicTacToeBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TicTacToeBlazor",
       "RelativePath": "TicTacToeBlazor#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "wYlIBvdLyIQHasGBxqnQE8yyZv2aHgUSTHMphhnIMcA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TicTacToeBlazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TicTacToeBlazor.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\app.css",
       "SourceId": "TicTacToeBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\",
       "BasePath": "_content/TicTacToeBlazor",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "TicTacToeBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\",
       "BasePath": "_content/TicTacToeBlazor",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -94,17 +94,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "TicTacToeBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\",
       "BasePath": "_content/TicTacToeBlazor",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\favicon.png",
       "SourceId": "TicTacToeBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\",
       "BasePath": "_content/TicTacToeBlazor",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -146,7 +146,7 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -167,7 +167,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 21:03:20 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -183,7 +183,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -204,7 +204,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 21:03:20 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -227,8 +227,8 @@
       ]
     },
     {
-      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -237,7 +237,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "162726"
         },
         {
           "Name": "Content-Type",
@@ -245,11 +245,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 21:03:20 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -259,7 +259,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
+          "Value": "6gzpyzhau4"
         },
         {
           "Name": "label",
@@ -267,13 +267,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
         }
       ]
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -282,7 +282,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "162726"
         },
         {
           "Name": "Content-Type",
@@ -290,11 +290,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 21:03:20 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -304,13 +304,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
         }
       ]
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -331,7 +331,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 21:03:20 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -355,7 +355,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -376,7 +376,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 21:03:20 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -392,7 +392,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -413,7 +413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 21:03:20 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -437,7 +437,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -458,7 +458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 21:03:20 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -474,7 +474,7 @@
     },
     {
       "Route": "TicTacToeBlazor.bundle.scp.css",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TicTacToeBlazor.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TicTacToeBlazor.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -495,7 +495,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 22:25:01 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -511,7 +511,7 @@
     },
     {
       "Route": "TicTacToeBlazor.dl42einddo.bundle.scp.css",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TicTacToeBlazor.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TicTacToeBlazor.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -532,7 +532,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 22:25:01 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -556,7 +556,7 @@
     },
     {
       "Route": "TicTacToeBlazor.dl42einddo.styles.css",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TicTacToeBlazor.styles.css",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TicTacToeBlazor.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -577,7 +577,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 22:25:01 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -601,7 +601,7 @@
     },
     {
       "Route": "TicTacToeBlazor.styles.css",
-      "AssetFile": "C:\\Users\\lucas\\Documents\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TicTacToeBlazor.styles.css",
+      "AssetFile": "C:\\Users\\Lucas\\CS\\Projects\\TicTacToeBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TicTacToeBlazor.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -622,7 +622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 22:25:01 GMT"
+          "Value": "Wed, 27 Nov 2024 03:45:53 GMT"
         },
         {
           "Name": "Cache-Control",
