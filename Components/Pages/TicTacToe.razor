@@ -1,9 +1,13 @@
-﻿@page "/TicTacToe"
+﻿@page "/"
 @rendermode InteractiveServer
 
-<h3>@header</h3>
+<PageTitle>TicTacToe</PageTitle>
 
 <style>
+    .center{
+        max-width:fit-content;
+        margin-inline: auto;
+    }
     .square{
         height: 100px;
         width: 100px;
@@ -16,51 +20,54 @@
     }
 </style>
 
-@for(int i = 0; i < 3; ++i){
-    <div class="row" id="@i">
-    @for(int j = 0; j < 3; ++j){
-        int row = i;
-        int col = j;
-        <div class="square"
-            id="@j"
-            @onclick="() => OnClick(row, col)">
-            @board.getCell(row,col)
+<div class="center">
+    <h2>Tic Tac Toe</h2>
+    <h3>@subHead</h3>
+
+    @for(int i = 0; i < 3; ++i){
+        <div class="row" id="@i">
+        @for(int j = 0; j < 3; ++j){
+            int row = i;
+            int col = j;
+            <div class="square"
+                id="@j"
+                @onclick="() => OnClick(row, col)">
+                @board.getCell(row,col)
+            </div>
+        }
         </div>
     }
-    </div>
-}
 
-@if(inGame){
-    <button class="btn btn-primary" @onclick="Reset">Reset Gameboard</button>
-} else{
-    <button class="btn btn-primary" @onclick="Reset">Play Against AI</button>
-    <button class="btn btn-primary" @onclick="Reset">Local Two Player</button>
-}
+    @if(inGame){
+        <button class="btn btn-primary" @onclick="Reset">Reset Gameboard</button>
+    }
 
-@code {
-    bool inGame = false;
-    char curPlayer = 'X';
-    string header = "Are you ready for Tic Tac Toe?";
-    [Parameter]
-    public TicTacToeBoard board { get; set; } = new TicTacToeBoard();
-    public void OnClick(int r, int c){
-        if (board.gameOver) return;
-        board.setCell(r, c, curPlayer);
-        int win = board.checkForWin();
-        if (win != -1){
-            if (win == 0) header = "Players Tied";
-            else if (win == 1) header = "X's Won!";
-            else if (win == 2) header = "O's Won!";
+    @code {
+        string subHead = "Choose Gamemode";
+        bool inGame = false;
+        char curPlayer = 'X';
+        [Parameter]
+        public TicTacToeBoard board { get; set; } = new TicTacToeBoard();
+        public void OnClick(int r, int c){
+            if (board.gameOver) return;
+            else inGame = true;
+            board.setCell(r, c, curPlayer);
+            int win = board.checkForWin();
+            if (win != -1){
+                if (win == 0) subHead = "Players Tied";
+                else if (win == 1) subHead = "X's Won!";
+                else if (win == 2) subHead = "O's Won!";
+            }
+            else{
+                curPlayer = (curPlayer == 'X') ? 'O' : 'X';
+                subHead = curPlayer + "'s Turn";
+            }
+        }
+        public void Reset(){
+            board.clear();
+            board.gameOver = false;
+            subHead = "Start!";
             inGame = false;
         }
-        else{
-            curPlayer = (curPlayer == 'X') ? 'O' : 'X';
-            header = curPlayer + "'s Turn";
-        }
     }
-    public void Reset(){
-        header = "Are you ready for Tic Tac Toe?";
-        board.clear();
-        board.gameOver = false;
-    }
-}
+</div>
